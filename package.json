@@ -1,0 +1,22 @@
+{
+  "name": "screenshotapi",
+  "version": "1.0.0",
+  "description": "api which gives screenshot of url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "screenshot": "phantomjs screenshot.js https://www.google.com/ testgoogle.png"
+  },
+  "author": "Satheesh",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.0.2",
+    "hapi-swagger": "^7.5.0",
+    "inert": "^4.0.4",
+    "phantom": "^3.2.1",
+    "require": "^2.4.20",
+    "shelljs": "^0.7.5",
+    "vision": "^4.1.1"
+  }
+}
